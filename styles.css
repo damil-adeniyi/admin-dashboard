@@ -151,6 +151,7 @@
 .profile .img {
     display: flex;
     align-items: center;
+    
 }
 
 .profile .mode {
@@ -171,7 +172,7 @@
     border-radius: 50%;
 }
 
-.mode img {
+.mode .mode-img {
     width: 24px;
     height: 24px;
     object-fit: cover;
@@ -373,4 +374,39 @@
 .trend .img {
     display: flex;
     align-items: center;
+}
+
+@media (max-width: 1024px) {
+    .container .header {
+    padding: 20px 10px;
+    height: 120px;
+}
+  .header .top-header {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+ .header .bottom-header {
+    display: none;
+}
+
+.container .main-content {
+    display: grid;
+    grid-template: 1fr / 1fr;
+}
+
+.main-content .announcements {
+    display: none;
+}
+
+.main-content .trending {
+    display: none;
+}
+
+.top-header .profile {
+    width: 100%;
+    justify-content: center;
+}
+
 }
