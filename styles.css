@@ -15,6 +15,10 @@
     font-family: 'roboto', sans-serif;
 }
 
+body {
+    background-color: var(--grey-color);
+}
+
 :root {
     --primary-color: #1992D4;
     --secondary-color: #FACC15;
@@ -433,7 +437,12 @@
 }
 
 .top-header .profile {
-    width: 100%;
+    width: 80%;
+    justify-content: center;
+}
+
+.top-header .search-bar {
+    width: 80%;
     justify-content: center;
 }
 
