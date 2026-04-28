@@ -5,6 +5,12 @@
     list-style: none;
 }
 
+:root {
+    --primary-color: rgb(104, 107, 195);
+    --secondary-color: #b5cb0e;
+    --text-color: #fff;
+}
+
 .container {
     display: grid;
     grid-template: 1fr 5fr / 1fr 5fr;
